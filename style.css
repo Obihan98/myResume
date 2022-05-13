@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    margin: 0;
+}
+
+.header-first{
+    font-size: 160%;
+}
+
+.mountain{
+    width: 800px;
+    margin-top: 50px;
+}
+
+h1{
+    position: relative;
+    top: 20px;
+}
+
+.top-cloud{
+    width: 150px;
+    position: absolute;
+    right: 0;
+}
+
+.bottom-cloud{
+    width: 150px;
+    position: absolute;
+}
+
+.bottom{
+    margin-top: -20px;
+}
+
+.top{
+    position: relative;
+    height: 95px;
+    width: 800px;
+    top: 50px;
+    margin: auto;
+}
+
+.middle-container{
+    width: 800px;
+    margin: auto;
+}
+
+.date-row{
+    position: relative;
+    text-align: left;
+}
+
+.left{
+    display: inline;
+}
+
+.right{
+    margin-top: 0px;
+    display: inline;
+    position: absolute;
+    right: 0px;
+}
+
+.spec{
+    margin-top: 0;
+}
+
+.myButton {
+	background-color:#ffffff;
+	border-radius:17px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:18px;
+	font-weight:bold;
+	padding:12px 15px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#000000;
+    color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.bottom-container{
+    margin: 30px 0px 0px 0px;
+    padding: 20px 0px 10px 0;
+    background-color: #000000;
+    color: white;
+}
