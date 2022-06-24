@@ -88,13 +88,23 @@ h1{
 	top:1px;
 }
 
-a{
+.button-link{
     font-family: 'Courier New', Courier, monospace;
     margin: 0px 10px 0px 10px;
-    text-decoration: none;
+    text-decoration: none; 
 }
 
-a:hover{
+.project-link{
+    text-decoration: none; 
+    margin: 0;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: black; 
+}
+
+.button-link:hover{
     color: white;
 }
 
